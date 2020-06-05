@@ -5,8 +5,13 @@ class ItemsController {
     async index(req: Request, res: Response) {
         const items = await knex('items').select('*');
     
+        let os = require('os');
+        let networkInterfaces = os.networkInterfaces( );
+        let arr = networkInterfaces['enp3s0']
+        let ip = arr[0].address;
+
         const hostname = String(req.headers.host);
-        const base_url = `http://${hostname}/uploads/`;
+        const base_url = `http://${ip}:3333/uploads/`;
     
         const serializedItems = items.map(item => {
             return {
