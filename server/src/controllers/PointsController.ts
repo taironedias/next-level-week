@@ -82,7 +82,7 @@ class PointsController {
             .distinct()
             .select('points.*');
 
-        return res.json({ points });
+        return res.json(points);
     }
 }
 
