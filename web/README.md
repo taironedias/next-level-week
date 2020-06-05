@@ -6,6 +6,23 @@ Utilizando o **npx** para executar o módulo **create-react-app** e assim criar 
 npx create-react-app web --template=typescript
 ```
 
+## library used
+
+- [knex](http://knexjs.org/)
+- [Leaflet](https://leafletjs.com/examples/quick-start/)
+- [react-leaflet](https://react-leaflet.js.org/en/)
+- [Feather](https://react-icons.github.io/react-icons/icons?name=fi)
+
+
+## external API
+
+- [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
+
+
+## prototype
+
+[Ecoleta](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/?viewer=1&node-id=)
+
 ## Available Scripts
 
 In the project directory, you can run:
