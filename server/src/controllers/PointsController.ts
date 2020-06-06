@@ -1,8 +1,12 @@
 import { Request, Response } from 'express';
 import knex from '../database/connection';
 
+interface RequestCustom extends Request {
+    fileValidationError: string;
+}
+
 class PointsController {
-    async create(req: Request, res: Response) {
+    async create(req: RequestCustom, res: Response) {
         
         const {
             name,
@@ -14,9 +18,13 @@ class PointsController {
             uf,
             items
         } = req.body;
-        
+
+        if(req.fileValidationError) {
+            return res.status(404).end(req.fileValidationError);
+        }
+
         const trx = await knex.transaction();
-        
+
         const point = {
             image: 'https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
             name,
@@ -27,7 +35,7 @@ class PointsController {
             city,
             uf
         };
-        
+
         const insertedIds = await trx('points').insert(point);
         
         const point_id = insertedIds[0];
