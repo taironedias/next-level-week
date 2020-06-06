@@ -13,7 +13,7 @@ interface Params {
 
 interface Data {
   point: {
-    image: string;
+    image_url: string;
     name: string;
     email: string;
     whatsapp: string;
