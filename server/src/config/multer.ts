@@ -20,8 +20,8 @@ export default {
             file.mimetype !== 'image/jpg' &&
             file.mimetype !== 'image/jpeg'
         ) {
-            request.fileValidationError = 'Only png are allowed';
-            return callback(null, false, new Error('Only png are allowed'));
+            request.fileValidationError = 'Only png, jpg and jpeg are allowed';
+            return callback(null, false, new Error('Only png, jpg and jpeg are allowed'));
         }
         callback(null, true);
     }
