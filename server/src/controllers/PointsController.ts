@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import knex from '../database/connection';
+import baseUrl from '../utils/baseUrl';
 
 interface RequestCustom extends Request {
     fileValidationError: string;
@@ -70,6 +71,8 @@ class PointsController {
             return res.status(400).json({ message: 'Point not found.' });
         }
 
+        const base_url = `${baseUrl}uploads/`;
+
         const items = await knex('items')
             .join('point_items', 'items.id', '=', 'point_items.item_id')
             .where('point_items.point_id', id)
@@ -93,7 +96,8 @@ class PointsController {
             .distinct()
             .select('points.*');
 
-        return res.json(points);
+        const base_url = `${baseUrl}uploads/`;
+
     }
 }
 
