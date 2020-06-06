@@ -39,6 +39,7 @@ const CreatePoint = () => {
         whatsapp: ''
     });
     const [selectedItems, setSelectedItems] = useState<number[]>([]);
+    const [selectedFile, setSelectedFile] = useState<File>();
 
     const history = useHistory();
 
