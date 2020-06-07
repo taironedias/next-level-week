@@ -26,12 +26,12 @@
   <a href="#information_source-how-to-use">How To Use</a>
 </p>
 
-#### Web app:
+#### :globe_with_meridians: [Web app](https://i.ibb.co/dtP4YMW/Video-Sat-Jun-06-2020-23-38-09.gif)
 <p align="center">
-  <img src="ecoleta.gif" alt="Preview Ecoleta Web" border="0">
+  <img src="https://i.ibb.co/cL8Qxxd/Screenshot-20200607-011456.png" alt="Preview Ecoleta Web" border="0">
 </p>
 
-#### Mobile app:
+#### :iphone: Mobile app
 <p align="center">
   <img width="250px" height="541px" alt="Preview Ecoleta Web" src="https://i.ibb.co/Zz4dPYp/photo-2020-06-07-00-08-25.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="541px" alt="Preview Ecoleta Web" src="https://i.ibb.co/HTzPb16/photo-2020-06-07-00-08-24.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="541px" alt="Preview Ecoleta Web" src="https://i.ibb.co/yf3ZjS3/photo-2020-06-07-00-08-23.jpg">
 </p>
