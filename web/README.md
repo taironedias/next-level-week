@@ -9,16 +9,7 @@ npx create-react-app web --template=typescript
 
 **Web (ReactJS):**
   
-<img alt="axios" src="https://img.shields.io/badge/axios-^0.19.2-blue" />
-<img alt="axios" src="https://img.shields.io/badge/leaflet-^1.6.0-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react-^16.13.1-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react--dom-^16.13.1-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react--dropzone-^11.0.1-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react--icons-^3.10.0-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react--leaflet-^2.7.0-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react--router--dom-^5.2.0-blue" />
-<img alt="axios" src="https://img.shields.io/badge/react--scripts-3.4.1-blue" />
-<img alt="axios" src="https://img.shields.io/badge/typescript-^3.7.5-blue" />
+<img alt="axios" src="https://img.shields.io/badge/axios-^0.19.2-blue" /> <img alt="axios" src="https://img.shields.io/badge/leaflet-^1.6.0-blue" /> <img alt="axios" src="https://img.shields.io/badge/react-^16.13.1-blue" /> <img alt="axios" src="https://img.shields.io/badge/react--dom-^16.13.1-blue" /> <img alt="axios" src="https://img.shields.io/badge/react--dropzone-^11.0.1-blue" /> <img alt="axios" src="https://img.shields.io/badge/react--icons-^3.10.0-blue" /> <img alt="axios" src="https://img.shields.io/badge/react--leaflet-^2.7.0-blue" /> <img alt="axios" src="https://img.shields.io/badge/react--router--dom-^5.2.0-blue" /> <img alt="axios" src="https://img.shields.io/badge/react--scripts-3.4.1-blue" /> <img alt="axios" src="https://img.shields.io/badge/typescript-^3.7.5-blue" />
 
 ```bash
 # axios (middleware para conexão com APIs)
