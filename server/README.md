@@ -1,43 +1,68 @@
-## init
+## :round_pushpin: init
 
-Criando o projeto em Node.js
 ```bash
+# cria o projeto em Node.js default
 npm init -y
 ```
 
+## :bookmark_tabs: Dependencies
+
+**Server (Node.js):**
+
+<img alt="express" src="https://img.shields.io/badge/express-^4.17.1-brightgreen" />
+<img alt="celebrate" src="https://img.shields.io/badge/celebrate-^12.1.1-brightgreen" />
+<img alt="cors" src="https://img.shields.io/badge/cors-^2.8.5-brightgreen" />
+<img alt="knex" src="https://img.shields.io/badge/knex-^0.21.1-brightgreen" />
+<img alt="multer" src="https://img.shields.io/badge/multer-^1.4.2-brightgreen" />
+<img alt="sqlite3" src="https://img.shields.io/badge/sqlite3-^4.2.0-brightgreen" />
+
+<br/>
+<br/>
+
 ##### Depêndencias do projeto (prodution and development)
 
-###### express (framework para lidar com rotas)
+
 ```bash
+# express (framework para lidar com rotas)
 npm install express
-```
 
-###### @types/express (módulo para declarar o tipo do express)
-```bash
+# celebrate (middleware de validação para express)
+npm install celebrate
+
+# cors (middleware que permite acessar recursos de outros sites)
+npm install cors
+
+# knex (SQL query builder para MySQL, SQLite3, Postgres, etc)
+npm install knex
+
+# multer (middleware para uploads de arquivos)
+npm install multer
+
+# sqlite3 (pacote para gerenciar a persistência dos dados)
+npm install sqlite3
+
+# @types/express (módulo para declarar o tipo do express no TypeScript)
 npm install @types/express -D
-```
 
-###### typescript (módulo para a linguagem TypeScript)
-```bash
+# typescript (módulo para a linguagem TypeScript)
 npm install typescript -D
-```
 
-###### ts-node (módulo para executar a aplicação em TypeScript)
-```bash
+# ts-node (módulo para executar a aplicação em TypeScript)
 npm install ts-node -D
 ```
 
-## init TypeScript
-Criar um arquivo de configuração do TypeScript
+## :round_pushpin: init TypeScript
 
 ```bash
+# cria um arquivo de configuração do TypeScript
 npx tsc --init
 ```
 
-## run
+## :rocket: run
 
-###### npx (executa um pacote/módulo instalado)
+
 ```bash
+# npx (executa um pacote/módulo instalado)
 npx ts-node src/server.ts
 ```
 
