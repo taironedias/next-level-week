@@ -11,8 +11,6 @@ npm init -y
 
 <img alt="express" src="https://img.shields.io/badge/express-^4.17.1-brightgreen" /> <img alt="celebrate" src="https://img.shields.io/badge/celebrate-^12.1.1-brightgreen" /> <img alt="cors" src="https://img.shields.io/badge/cors-^2.8.5-brightgreen" /> <img alt="knex" src="https://img.shields.io/badge/knex-^0.21.1-brightgreen" /> <img alt="multer" src="https://img.shields.io/badge/multer-^1.4.2-brightgreen" /> <img alt="sqlite3" src="https://img.shields.io/badge/sqlite3-^4.2.0-brightgreen" />
 
-<br/>
-<br/>
 
 ##### Depêndencias do projeto (prodution and development)
 

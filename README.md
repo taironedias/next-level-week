@@ -28,7 +28,7 @@
 
 #### Web app:
 <p align="center">
-  <img src="https://i.ibb.co/dtP4YMW/Video-Sat-Jun-06-2020-23-38-09.gif" alt="Preview Ecoleta Web" border="0">
+  <img src="ecoleta.gif" alt="Preview Ecoleta Web" border="0">
 </p>
 
 #### Mobile app:
