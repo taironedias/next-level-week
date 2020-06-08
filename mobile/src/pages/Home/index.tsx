@@ -116,7 +116,7 @@ const Home = () => {
               style={pickerStyle}
               useNativeAndroidPickerStyle={false}
               Icon={() => {
-                return <Icon name="arrow-down" size={24} color="#C9C9C9" style={{top: 20, right: 10}} />;
+                return <Icon name="chevron-down" size={24} color="#C9C9C9" style={{top: 20, right: 10}} />;
               }}
             />
             <RNPickerSelect
@@ -131,7 +131,7 @@ const Home = () => {
               value={city}
               useNativeAndroidPickerStyle={false}
               Icon={() => {
-                return <Icon name="arrow-down" size={24} color="#C9C9C9" style={{top: 20, right: 10}} />;
+                return <Icon name="chevron-down" size={24} color="#C9C9C9" style={{top: 20, right: 10}} />;
               }}
             />
 
