@@ -194,13 +194,11 @@ const styles = StyleSheet.create({
   },
 
   mapMarker: {
-    width: 90,
-    height: 80, 
+    width: 90
   },
 
   mapMarkerContainer: {
     width: 90,
-    height: 70,
     backgroundColor: '#34CB79',
     flexDirection: 'column',
     borderRadius: 8,
@@ -219,7 +217,9 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto_400Regular',
     color: '#FFF',
     fontSize: 13,
-    lineHeight: 23,
+    textAlign: "center",
+    flexWrap: 'wrap',
+    padding: 2
   },
 
   itemsContainer: {
